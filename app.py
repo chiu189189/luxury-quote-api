@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="📦 批客報價系統", layout="centered")
-st.title("📦 批客報價系統")
+st.set_page_config(page_title="📦 批發報價系統", layout="centered")
+st.title("📦 批發報價系統")
 
 # 品牌選單
 brands = ["CHANEL", "LV", "HERMES", "DIOR", "CELINE", "GUCCI", "YSL", "LOEWE", "BURBERRY", "CHLOÉ", "BALENCIAGA", "其他"]
