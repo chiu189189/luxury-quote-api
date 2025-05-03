@@ -19,7 +19,7 @@ def calculate_quote(data: QuoteRequest):
         "CHLOÉ": 0.87, "BALENCIAGA": 0.87, "其他": 1.0
     }
 
-    rate = 36  # 匯率固定，可於後端更新
+    rate = 36.5  # 匯率固定，可於後端更新
     tax = brand_tax.get(data.brand, 1.0)
     euro = data.euro_price
     after_tax = euro * tax
