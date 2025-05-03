@@ -16,7 +16,7 @@ def calculate_quote(data: QuoteRequest):
         "CHANEL": 0.94, "Louis Vuitton": 0.94, "HERMES": 0.94,
         "DIOR": 0.87, "CELINE": 0.87, "GUCCI": 0.87,
         "YSL": 0.87, "LOEWE": 0.87, "BURBERRY": 0.87,
-        "CHLOÉ": 0.87, "BALENCIAGA": 0.87, "其他": 1.0
+        "CHLOÉ": 0.87, "MIU MIU": 0.85, "BALENCIAGA": 0.87, "其他": 1.0
     }
 
     rate = 36  # 匯率固定，可於後端更新
